@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'hurtmold_regular';
+    src: url('./fonts/hurtm.woff2') format('woff2'),
+         url('./fonts/hurtm.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.header{
+/*  background: linear-gradient(to right, rgba(172,182,189,1) 0%, rgba(172,182,189,1) 26%, rgba(193,202,209,1) 54%, rgba(193,202,209,1) 100%);*/
+  background: linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 90%/*, rgba(139,180,224,1) 90%, rgba(139,180,224,1) 100%*/);
+  padding: 1em 1em;
+  margin: -0.5em -0.5em;
+  border-radius: 3px;
+  position:fixed;
+  width: 99%;
+  z-index: 1;
+  box-shadow: 0px 0px 50px 3px black;
+}
+ .header ul {
+   height: 100%;
+   list-style-type:none;
+   margin-top: 0;
+   margin-left: 0;
+   margin-bottom: 0;
+   overflow: hidden;
+ }
+ nav{
+   height:100%;
+ }
+ .header li{
+   height:100%;
+   float: right;
+ }
+ .header .cis{
+   transition: all 0.5s ;
+   font-family: "hurtmold_regular";
+   font-size: 3em;
+   float:left;
+   text-shadow: 0px 0px 3px black;
+   color: white;
+   text-align: center;
+   text-shadow: 0px 0px 10px #000;
+   cursor:pointer;
+ }
+ .header .cis:hover{
+   text-shadow: 0px 0px 5px #000;
+   /*color: #fff;*/
+ }
+
+.header a{
+  height:100%;
+  transition: all 0.2s;
+  text-shadow: 0px 0px 5px black;
+  /*border-style: none none none solid;
+  border-width: 1px ;*/
+  font-family: 'century gothic';
+  display: block;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  text-align: center;
+}
+.logo{
+  margin-top:0.1em;
+  height:0.9em;
+  width:1.5em;
+  filter: hue-rotate(133deg);
+}
+.header a:hover{
+  /*background: grey;*/
+  background: linear-gradient(45deg, rgba(248,80,50,1) 0%, rgba(240,47,23,1) 90%/*, rgba(241,111,92,1) 90%, rgba(231,56,39,1) 100%*/);
+}
+
+body{
+  background-image: url("../images/bkg.jpg");
+  overflow-x: hidden;
+}
+.footer{
+  position: relative;
+  width: 100%;
+}
